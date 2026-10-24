@@ -6,22 +6,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "validate-case": "tsx scripts/validate-case.ts",
+    "smoke-llm": "tsx --env-file=.env.local scripts/smoke-llm.ts",
+    "gen-art": "node scripts/gen-placeholder-art.mjs"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.4"
+    "@anthropic-ai/sdk": "^1.3.0",
+    "framer-motion": "^14.6.0",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^22.20.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "15.5.4",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-next": "^16.4.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^5.0.5"
   }
 }

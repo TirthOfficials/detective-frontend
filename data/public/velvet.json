@@ -1,0 +1,102 @@
+{
+  "id": "velvet",
+  "title": "Last Call at the Velvet Room",
+  "year": 1929,
+  "setting": "The Velvet Room speakeasy, Chicago, after closing",
+  "blurb": "The band packed up. The lights went low. And somebody settled Lucky Mickey's tab for good.",
+  "victim": "\"Lucky\" Mickey Doyle, owner of the Velvet Room, was struck on the head in the cellar vault tonight at about 1:30 am and found dead at 1:45.",
+  "alibiWindow": "between 1:00 and 1:45",
+  "clueCount": 6,
+  "background": "/backgrounds/velvet.svg",
+  "narration": {
+    "intro": [
+      "Rain hammered Chicago the night Lucky Mickey Doyle's luck ran out.",
+      "At one in the morning the Velvet Room closed its doors. By a quarter to two, Mickey lay dead on the floor of his own cellar vault, the iron door hanging open, his ledger gone.",
+      "The front door was locked. The alley door was bolted, or should have been. Five people were still inside the Velvet Room."
+    ],
+    "detectiveEnters": "And then you walked in out of the rain, detective. Nobody here paid you, and nobody here owns you. Find out who closed Mickey's account."
+  },
+  "rooms": [
+    {
+      "id": "cellar",
+      "name": "Cellar Vault",
+      "description": "Brick walls, crates of contraband, and an iron vault door left wide open."
+    },
+    {
+      "id": "stage",
+      "name": "The Stage",
+      "description": "A velvet curtain, a battered piano, and the singer's dressing room behind it."
+    },
+    {
+      "id": "bar",
+      "name": "The Bar",
+      "description": "Mahogany, mirrors, and a hundred bottles that don't officially exist."
+    },
+    {
+      "id": "alley",
+      "name": "Back Alley",
+      "description": "Rain, garbage cans, the cellar stairs, and a police callbox at the alley mouth."
+    }
+  ],
+  "places": {
+    "cellar": "in the cellar vault",
+    "stage": "at the piano on stage",
+    "bar": "at the bar",
+    "alley": "in the back alley",
+    "clark_street": "on his Clark Street beat",
+    "front_door": "at the front door",
+    "dressing_room": "in the dressing room"
+  },
+  "suspects": [
+    {
+      "id": "orourke",
+      "name": "Sgt. Patrick O'Rourke",
+      "short": "O'Rourke",
+      "role": "Beat cop, Clark Street",
+      "portrait": "/characters/velvet/orourke.svg",
+      "story": "Sergeant Patrick O'Rourke. Twenty years on the force, a laugh like a barrel, and a pension he talks about like a sweetheart. He keeps this block quiet. Everybody says so.",
+      "voice": "jovial, back-slapping, Irish-Chicago, talks down to civilians",
+      "accent": "#3d5a80"
+    },
+    {
+      "id": "dolly",
+      "name": "Dolly Mae",
+      "short": "Dolly",
+      "role": "Torch singer",
+      "portrait": "/characters/velvet/dolly.svg",
+      "story": "Dolly Mae. The voice that packs the Velvet Room every night. Mickey found her singing on a street corner, and he never let her forget who made her a star.",
+      "voice": "flirtatious, theatrical, calls everyone 'sugar'",
+      "accent": "#b5446e"
+    },
+    {
+      "id": "frankie",
+      "name": "Frankie Malone",
+      "short": "Frankie",
+      "role": "Bartender",
+      "portrait": "/characters/velvet/frankie.svg",
+      "story": "Frankie Malone. Eight years behind Mickey's bar. He hears every secret in Chicago and swears he forgets them by morning.",
+      "voice": "wisecracking, fast-talking, nervous laugh",
+      "accent": "#c97b27"
+    },
+    {
+      "id": "ace",
+      "name": "Ace Delaney",
+      "short": "Ace",
+      "role": "House pianist",
+      "portrait": "/characters/velvet/ace.svg",
+      "story": "Ace Delaney. Fingers like lightning on the keys, and a nose for a side hustle. He plays till closing and slips out the back after.",
+      "voice": "cool, laconic jazz-man slang",
+      "accent": "#5b8c5a"
+    },
+    {
+      "id": "vivian",
+      "name": "Vivian Doyle",
+      "short": "Vivian",
+      "role": "Mickey's sister and co-owner",
+      "portrait": "/characters/velvet/vivian.svg",
+      "story": "Vivian Doyle. Mickey's big sister and the brains of the Velvet Room. She signs half the checks and does all the math.",
+      "voice": "sharp, businesslike, impatient",
+      "accent": "#9a8c98"
+    }
+  ]
+}

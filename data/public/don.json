@@ -1,0 +1,105 @@
+{
+  "id": "don",
+  "title": "Who Killed the Don?",
+  "year": 1927,
+  "setting": "The Moretti estate, upstate New York, during a snowstorm",
+  "blurb": "A snowstorm. A poisoned drink. Five people who loved the Don, or needed him dead.",
+  "victim": "Don Vincent Moretti was poisoned tonight in his study; he drank from his whiskey decanter at about 9:20 pm and was found dead at 9:30.",
+  "alibiWindow": "between 8:30 and 9:30",
+  "clueCount": 6,
+  "background": "/backgrounds/don.svg",
+  "narration": {
+    "intro": [
+      "Snow fell on the Moretti estate the night the Don took his last drink.",
+      "By nine thirty, Don Vincent Moretti lay dead across his study desk, a glass of whiskey still warm in his hand. Poison, the doctor said. Bitter, quick, and personal.",
+      "The storm had closed every road. Whoever did this never left the house. Five people were inside with him."
+    ],
+    "detectiveEnters": "And then there was you. The one person in the house who owed the Don nothing. The snow is still falling, detective. Find out who poured the Don his last drink."
+  },
+  "rooms": [
+    {
+      "id": "study",
+      "name": "The Study",
+      "description": "Where the Don died. Leather, cigar smoke, and a desk that has seen a hundred deals."
+    },
+    {
+      "id": "library",
+      "name": "The Library",
+      "description": "Floor-to-ceiling books, a dying fire, and the house telephone."
+    },
+    {
+      "id": "kitchen",
+      "name": "The Kitchen",
+      "description": "Copper pots, a back door to the yard, and the butler's ledger of chores."
+    },
+    {
+      "id": "garden",
+      "name": "The Garden",
+      "description": "A walled garden under a fresh blanket of snow, lit by the porch lamp."
+    }
+  ],
+  "places": {
+    "study": "in the study",
+    "library": "in the library",
+    "kitchen": "in the kitchen",
+    "garden": "in the garden",
+    "garden_porch": "on the garden porch",
+    "hallway": "in the hallway",
+    "study_corridor": "in the study corridor",
+    "office": "in the bookkeeping office",
+    "bedroom": "upstairs in the bedroom",
+    "back_door": "at the kitchen back door"
+  },
+  "suspects": [
+    {
+      "id": "enzo",
+      "name": "Enzo Bellini",
+      "short": "Enzo",
+      "role": "Consigliere",
+      "portrait": "/characters/don/enzo.svg",
+      "story": "Enzo Bellini. Twenty years loyal to the Moretti family. The Don's right hand, and the man who always knew where the bodies were buried.",
+      "voice": "formal, smooth, never rushed",
+      "accent": "#c9a227"
+    },
+    {
+      "id": "sal",
+      "name": "Sal Moretti",
+      "short": "Sal",
+      "role": "The Don's younger brother",
+      "portrait": "/characters/don/sal.svg",
+      "story": "Sal Moretti. The hot-tempered younger brother, always one bad hand away from ruin, always short of cash.",
+      "voice": "loud, defensive, quick to anger, Brooklyn slang",
+      "accent": "#a8322d"
+    },
+    {
+      "id": "rosa",
+      "name": "Rosa Moretti",
+      "short": "Rosa",
+      "role": "The Don's wife",
+      "portrait": "/characters/don/rosa.svg",
+      "story": "Rosa Moretti. Elegant, guarded, and very much alive. She has outlived worse storms than this one.",
+      "voice": "cool, precise, aristocratic, slightly icy",
+      "accent": "#8e5a9b"
+    },
+    {
+      "id": "lucia",
+      "name": "Lucia Ferraro",
+      "short": "Lucia",
+      "role": "Family bookkeeper",
+      "portrait": "/characters/don/lucia.svg",
+      "story": "Lucia Ferraro. The quiet bookkeeper. Nervous hands, sharp eyes, and the only one in the house who truly understands the ledgers.",
+      "voice": "soft, hesitant, nervous, apologetic",
+      "accent": "#4f8a8b"
+    },
+    {
+      "id": "gino",
+      "name": "Gino Russo",
+      "short": "Gino",
+      "role": "Butler and driver",
+      "portrait": "/characters/don/gino.svg",
+      "story": "Gino Russo. Butler, driver, and the Don's shadow. A loyal servant who sees everything and says very little.",
+      "voice": "humble, terse, old-world politeness",
+      "accent": "#7d8b4f"
+    }
+  ]
+}

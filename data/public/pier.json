@@ -1,0 +1,102 @@
+{
+  "id": "pier",
+  "title": "Midnight at Pier 9",
+  "year": 1931,
+  "setting": "Pier 9, Red Hook, Brooklyn, on a foggy night",
+  "blurb": "Fog off the harbor. A union boss in a warehouse. And a paper trail somebody wanted sunk.",
+  "victim": "Union boss Tommy Kane was killed with a cargo hook in the Pier 9 warehouse tonight at about midnight and found at 12:30 am.",
+  "alibiWindow": "between 11:30 and 12:30",
+  "clueCount": 6,
+  "background": "/backgrounds/pier.svg",
+  "narration": {
+    "intro": [
+      "The fog rolled in off the harbor thick enough to drown in, the night Tommy Kane went down.",
+      "At half past midnight they found him in the Pier 9 warehouse, slumped between the cargo bays, a longshoreman's hook beside him. The man who ran every dock from Red Hook to the Navy Yard, killed with a tool of his own trade.",
+      "The pier gates were chained at eleven. Five people were still on Pier 9 when the fog came down."
+    ],
+    "detectiveEnters": "And then you came up the gangway, detective. No union card, no debts on the waterfront. Find out who sank Tommy Kane."
+  },
+  "rooms": [
+    {
+      "id": "warehouse",
+      "name": "The Warehouse",
+      "description": "Cargo bays, hanging hooks, and the chalk outline of a union boss."
+    },
+    {
+      "id": "harbor_office",
+      "name": "Harbor Office",
+      "description": "Filing cabinets, a telephone, and stacks of shipping manifests."
+    },
+    {
+      "id": "pier",
+      "name": "The Pier",
+      "description": "Wet planks, coiled rope, and a freighter riding low at its moorings."
+    },
+    {
+      "id": "chapel",
+      "name": "Seamen's Chapel",
+      "description": "A tiny waterfront chapel, candles burning, and a donation box that's always full."
+    }
+  ],
+  "places": {
+    "warehouse": "in the warehouse",
+    "warehouse_door": "outside the warehouse door",
+    "harbor_office": "in the harbor office",
+    "pier": "out on the pier",
+    "chapel": "in the chapel",
+    "ship": "aboard the Nordlys",
+    "home": "at home"
+  },
+  "suspects": [
+    {
+      "id": "maria",
+      "name": "Maria Costa",
+      "short": "Maria",
+      "role": "Dock clerk",
+      "portrait": "/characters/pier/maria.svg",
+      "story": "Maria Costa. The dock clerk. Polite, tireless, always with a pencil behind her ear and a cup of coffee for the men. Nobody on Pier 9 has a bad word to say about her.",
+      "voice": "polite, soft-spoken, helpful, composed",
+      "accent": "#c06c84"
+    },
+    {
+      "id": "haugen",
+      "name": "Capt. Erik Haugen",
+      "short": "Haugen",
+      "role": "Captain of the freighter Nordlys",
+      "portrait": "/characters/pier/haugen.svg",
+      "story": "Captain Erik Haugen. Master of the Norwegian freighter Nordlys. Thirty years at sea, and a cargo hold that always seems heavier than its paperwork.",
+      "voice": "gruff, blunt, Norwegian accent, few words",
+      "accent": "#6c8ead"
+    },
+    {
+      "id": "paulie",
+      "name": "Big Paulie Grasso",
+      "short": "Paulie",
+      "role": "Longshore foreman",
+      "portrait": "/characters/pier/paulie.svg",
+      "story": "Big Paulie Grasso. Kane's foreman and his fists. Six and a half feet of muscle, and everyone on the docks knows he's been waiting for the big chair.",
+      "voice": "loud, blunt, menacing, not very bright",
+      "accent": "#a0522d"
+    },
+    {
+      "id": "anselm",
+      "name": "Father Anselm",
+      "short": "Father Anselm",
+      "role": "Waterfront priest",
+      "portrait": "/characters/pier/anselm.svg",
+      "story": "Father Anselm. Priest of the Seamen's Chapel, confessor to sinners and longshoremen alike. Tommy Kane's donations kept his candles burning.",
+      "voice": "gentle, measured, quotes scripture, careful with words",
+      "accent": "#8d99ae"
+    },
+    {
+      "id": "jack",
+      "name": "Jack Kane",
+      "short": "Jack",
+      "role": "Tommy's son",
+      "portrait": "/characters/pier/jack.svg",
+      "story": "Jack Kane. Tommy's only son, twenty-two and angry at the world. Tonight half the pier heard him shouting at his father.",
+      "voice": "young, bitter, defiant, grief hidden under anger",
+      "accent": "#e09f3e"
+    }
+  ]
+}
